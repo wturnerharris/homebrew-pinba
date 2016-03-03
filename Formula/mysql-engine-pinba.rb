@@ -10,7 +10,7 @@ class MysqlEnginePinba < AbstractEnginePinba
 
   resource "mysql" do
     url "http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-boost-5.7.11.tar.gz"
-    sha256 "ab21347ba004a5aa349b911d829a14e79b1e36e4bcd007d39d75212071414e28"
+    sha256 "54f8c7af87d3d8084419bde2b9f0d8970b3dada0757b015981b02f35a3681f0e"
   end
 
   resource "pinba-engine-5c72ed99" do
