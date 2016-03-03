@@ -23,7 +23,7 @@ class MysqlEnginePinba < AbstractEnginePinba
 
   def install
     resource("mysql").stage do
-      system "/usr/local/bin/cmake -DBUILD_CONFIG=mysql_release -Wno-dev && cd include && make"
+      system "/usr/local/bin/cmake -DDOWNLOAD_BOOST=1 -DWITH_BOOST=. -DBUILD_CONFIG=mysql_release -Wno-dev && cd include && make"
       cp_r pwd, buildpath/"mysql"
     end
 
