@@ -10,7 +10,7 @@ class MysqlEnginePinba < AbstractEnginePinba
 
   resource "mysql" do
     url "http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.11-osx10.10-x86_64.tar.gz"
-    sha256 "8356bba23f3f6c0c2d4806110c41d1c4d6a4b9c50825e11c5be4bbee2b20b71d"
+    md5 "23af80f1b4b1eaae48b5705bb146ee26"
   end
 
   resource "pinba-engine-5c72ed99" do
