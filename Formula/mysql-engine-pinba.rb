@@ -13,9 +13,9 @@ class MysqlEnginePinba < AbstractEnginePinba
     sha256 "54f8c7af87d3d8084419bde2b9f0d8970b3dada0757b015981b02f35a3681f0e"
   end
 
-  resource "pinba-engine-5c72ed99" do
-    url 'https://github.com/tony2001/pinba_engine/archive/5c72ed9956ba3a2f831ba19db2da26ee60fb246a.tar.gz'
-    sha1 '9c8b2672e2db6871b7ee4513e5e0b2cbba619494'
+  resource "pinba-engine-master" do
+    url 'https://github.com/tony2001/pinba_engine/archive/master.zip'
+    sha256 '0c3df93bcfe02904deb0858d7d2c79f3ce9ce63b812921d355518c965135209f'
   end
 
   # Fix https://github.com/tony2001/pinba_engine/issues/40
