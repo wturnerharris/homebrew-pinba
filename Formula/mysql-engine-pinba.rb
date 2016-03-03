@@ -9,8 +9,8 @@ class MysqlEnginePinba < AbstractEnginePinba
     :because => "It installs the same binaries."
 
   resource "mysql" do
-    url "http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.11-osx10.10-x86_64.tar.gz"
-    sha256 "87df7b756107d60a8cca569381945a9c337700bd077770d6f936f73deeed020d"
+    url "http://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.11.tar.gz"
+    sha256 "54f8c7af87d3d8084419bde2b9f0d8970b3dada0757b015981b02f35a3681f0e"
   end
 
   resource "pinba-engine-5c72ed99" do
