@@ -27,7 +27,7 @@ class MysqlEnginePinba < AbstractEnginePinba
       cp_r pwd, buildpath/"mysql"
     end
 
-    resource("pinba-engine-5c72ed99").stage do
+    resource("pinba-engine-master").stage do
       cp_r "scripts", buildpath/"scripts"
     end
 
